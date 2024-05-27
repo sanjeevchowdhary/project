@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>China Sales Data Dashboard</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .grid-item {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>China Sales Data Dashboard</h1>
+    <div class="grid-container">
+        <div class="grid-item">{{ graph1 | safe }}</div>
+        <div class="grid-item">{{ graph2 | safe }}</div>
+        <div class="grid-item">{{ graph3 | safe }}</div>
+        <div class="grid-item">{{ graph4 | safe }}</div>
+        <div class="grid-item">{{ graph5 | safe }}</div>
+        <div class="grid-item">{{ graph6 | safe }}</div>
+        <div class="grid-item">{{ graph7 | safe }}</div>
+        <div class="grid-item">{{ graph8 | safe }}</div>
+    </div>
+</body>
+</html>

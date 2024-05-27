@@ -1,0 +1,7 @@
+flask
+pandas
+db-sqlite3
+deep_translator
+plotly
+scikit-learn
+openpyxl
